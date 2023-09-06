@@ -1,6 +1,6 @@
 # EasyNet
 Easy, simple Network scanner.
-Uses windows for gui
+Uses wxWidget for gui
 
 Written in c++.
 
