@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-network-scanner",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "EasyNetr",
+                "EasyNet.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "run-network-scanner",
+            "type": "shell",
+            "command": "./network_scanner",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
